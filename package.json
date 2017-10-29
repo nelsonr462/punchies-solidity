@@ -1,0 +1,22 @@
+{
+  "name": "punchies-solidity",
+  "version": "1.0.0",
+  "description": "A smart contract meant to replicate the basic functionality of a digital punch card rewards system",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "ejs": "^2.5.7",
+    "firebase-admin": "^5.2.1",
+    "firebase-functions": "^0.6.3",
+    "truffle": "^3.4.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "testrpc && truffle test"
+  },
+  "author": "",
+  "license": "ISC"
+}
